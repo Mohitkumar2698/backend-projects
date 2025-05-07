@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+coverage/
+
+# Optional: ignore database files or temp files
+*.sqlite
+*.db
+*.bak
+*.tmp
+
+# Optional: Visual Studio Code settings
+.vscode/
+
+# Ignore any system-related folders (like from Mac or Windows)
+.idea/
+*.swp
