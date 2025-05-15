@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ejs Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="padding: 2rem">
+    <form action="/users/add" method="post">
+      <label for="Username">Username :</label>
+      <input type="text" name="name" id="name" />
+      <br /><br />
+      <label for="pass">Password :</label>
+      <input type="password" name="pass" id="pass" />
+      <br /><br />
+      <label for="bio">Bio :</label>
+      <input type="text" name="bio" id="bio" />
+      <br /><br />
+      <label for="follower">Followers :</label>
+      <input type="text" name="follower" id="follower" />
+      <br /><br />
+      <label for="following">Following :</label>
+      <input type="text" name="following" id="following" />
+      <br /><br />
+      <input style="width: 100%" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
